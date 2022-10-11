@@ -2,4 +2,4 @@
 > as minhas atividades realizadas durante o curso de desenvolvimento web
 > da Trybe.
 
-##### Linkedin: linkedin.com/in/ivaneremberg
+##### [Linkedin](www.linkedin.com/in/ivaneremberg)
