@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Php
+Java
+JavaScript
+SQL
+C
