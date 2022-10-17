@@ -1,0 +1,9 @@
+div:hover
+{
+    border-style:solid;
+}
+
+div:css
+{
+    background-color: blue;
+}
