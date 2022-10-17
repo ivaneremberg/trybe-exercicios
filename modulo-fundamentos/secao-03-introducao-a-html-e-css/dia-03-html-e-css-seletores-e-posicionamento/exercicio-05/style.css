@@ -3,6 +3,17 @@ ol
     background-color: yellow;
 }
 
+ol li:nth-child(odd)
+{
+    text-transform: uppercase;
+}
+
+ol li:nth-child(even)
+{
+    color: green;
+}
+
+
 h1, h2, h3
 {
     color: red;
@@ -11,6 +22,7 @@ h1, h2, h3
 h1 em
 {
     font-size: 40px;
+    border: 1px black solid;
 }
 
 li
@@ -23,12 +35,44 @@ li em
     font-weight: bold;
 }
 
-ul
+ul li:nth-child(-n+3)
 {
     color: blue;
 }
 
-a:hover
+/* java */
+
+ul li:nth-child(1) a:hover
 {
+    text-decoration: none;
     font-weight: bold;
+    color: orange;
+}
+
+ul li:nth-child(2) a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+ul li:nth-child(3) a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+ul li:nth-child(4) a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+}
+
+ul li:nth-child(5) a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
 }
