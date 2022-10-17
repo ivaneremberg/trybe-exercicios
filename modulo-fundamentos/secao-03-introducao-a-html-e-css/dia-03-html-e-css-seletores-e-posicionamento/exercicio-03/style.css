@@ -1,0 +1,25 @@
+h1, p
+{
+    text-align: center;
+}
+
+li:hover
+{
+    background-color: blue;
+}
+
+li:active
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+ol
+{
+    list-style: none;
+}
+
+ul
+{
+    list-style: none;
+}
