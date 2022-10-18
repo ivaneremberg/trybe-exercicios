@@ -1,4 +1,20 @@
-.tabla-reino tr, th, td
+*
+{
+    margin: 1px;
+}
+
+main
+{
+    width: 1000px;
+}
+
+.tabla-reino 
+{
+    padding: 5px;
+    display: block;
+}
+
+tr, th, td
 {
     border: 1px solid black;
 }
@@ -13,4 +29,48 @@
 {
     background-color: lightgray;
     color: black;
+}
+
+li
+{
+    display: inline-block;
+}
+
+h3
+{
+    display: inline-block;
+}
+section
+{
+    display: inline-block;
+    width: 750px;
+}
+
+article
+{
+    display: inline-block;
+    width: 70%;
+    text-align: justify;
+}
+
+img{
+    display: inline-block;
+    width: 20%;
+}
+
+aside
+{
+    display: inline-block;
+}
+
+iframe
+{
+    display: inline-block;
+    width: 200px;
+}
+
+footer
+{
+    display: block;
+    text-align: center;
 }
