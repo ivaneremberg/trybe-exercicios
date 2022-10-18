@@ -1,0 +1,16 @@
+.tabla-reino tr, th, td
+{
+    border: 1px solid black;
+}
+
+.tabla-reino th
+{
+    background-color: black;
+    color: white;
+}
+
+.tabla-reino td
+{
+    background-color: lightgray;
+    color: black;
+}
