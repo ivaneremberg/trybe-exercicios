@@ -23,7 +23,7 @@
 // O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 // Resultado: R$ 2.612,55.
 
-let salary = 3000;
+let salary = 2000;
 
 if (salary <= 1556.94) {
     salary = salary - ((salary * 8) / 100);
@@ -35,7 +35,7 @@ if (salary <= 1556.94) {
     salary = salary - 570.88;
 }
 
-console.log("Gross salary: R$", salary);
+console.log("Gross salary: R$ " + salary);
 
 if (salary <= 1903.98) {
     salary = salary
@@ -49,4 +49,4 @@ if (salary <= 1903.98) {
     salary = salary - (((salary * 27.5) / 100) - 869.36);
 }
 
-console.log("Net salary: R$", salary);
+console.log("Net salary: R$ " + salary);
