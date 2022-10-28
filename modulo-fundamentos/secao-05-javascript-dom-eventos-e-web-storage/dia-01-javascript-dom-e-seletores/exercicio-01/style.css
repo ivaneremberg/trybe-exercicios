@@ -14,13 +14,13 @@
   
   .emergency-tasks {
     display: inline-block;
-    height: 400px;
+    height: 350px;
     margin: 56px 0;
     width: 400px;
   }
   
   .emergency-tasks div {
-    height: 198px;
+    height: 150px;
   }
   .emergency-tasks h3 {
     color: white;
@@ -30,12 +30,12 @@
   
   .no-emergency-tasks {
     display: inline-block;
-    height: 400px;
+    height: 350px;
     width: 400px;
   }
   
   .no-emergency-tasks div {
-    height: 198px;
+    height: 150px;
   }
   
   .no-emergency-tasks h3 {
