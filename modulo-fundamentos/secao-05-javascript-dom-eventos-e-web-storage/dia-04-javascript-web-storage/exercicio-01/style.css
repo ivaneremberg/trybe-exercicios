@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: white;
 }
 
 ul {
@@ -15,6 +15,7 @@ button {
 
 .border {
     border: 1pt solid black;
+    text-align: center;
 }
 
 .backgroudColor {
@@ -23,6 +24,8 @@ button {
     text-align: center;
     vertical-align: middle;
     width: 18%;
+    height: 125pt;
+    border: 1pt solid black;
 }
 
 .fontColor {
@@ -31,6 +34,8 @@ button {
     text-align: center;
     vertical-align: middle;
     width: 18%;
+    height: 125pt;
+    border: 1pt solid black;
 }
 
 .fontSize {
@@ -39,6 +44,8 @@ button {
     text-align: center;
     vertical-align: middle;
     width: 18%;
+    height: 125pt;
+    border: 1pt solid black;
 }
 
 .lineSpacing {
@@ -47,6 +54,8 @@ button {
     text-align: center;
     vertical-align: middle;
     width: 18%;
+    height: 125pt;
+    border: 1pt solid black;
 }
 
 .fontType {
@@ -55,6 +64,8 @@ button {
     text-align: center;
     vertical-align: middle;
     width: 18%;
+    height: 125pt;
+    border: 1pt solid black;
 }
 
 .inputText {
