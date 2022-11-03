@@ -1,0 +1,62 @@
+body {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    height: 15pt;
+    min-width: 50pt;
+    max-width: 100pt;
+    
+}
+
+.border {
+    border: 1pt solid black;
+}
+
+.backgroudColor {
+    display: inline-block;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+}
+
+.fontColor {
+    display: inline-block;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+}
+
+.fontSize {
+    display: inline-block;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+}
+
+.lineSpacing {
+    display: inline-block;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+}
+
+.fontType {
+    display: inline-block;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+}
+
+.inputText {
+    padding: 5%;
+}
