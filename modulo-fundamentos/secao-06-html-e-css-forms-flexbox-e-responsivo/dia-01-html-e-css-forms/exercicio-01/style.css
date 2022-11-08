@@ -1,0 +1,82 @@
+body {
+  background-color: green;
+}
+
+header {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: lightgreen;
+  border: solid black 3px;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-top: 5px;
+}
+.fields {
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: solid black 3px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-top: 5px;
+}
+
+.inputtext {
+  width: 80%;
+  display:inline-block;
+  line-height: 30px;  
+}
+
+.inputradio {
+  width: 80%;
+  display: block;
+  width: 95%;
+  line-height: 30px;
+}
+
+.inputtextarea {
+  width: 80%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: justify;
+}
+
+textarea {
+  resize: none;
+  font-size: 10px;
+}
+
+.inputcheckbox {
+  width: 80%;
+  display: block;
+  font-size: 12px;
+}
+
+footer {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+.buttons {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor:pointer;
+  border-radius: 10px;
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  border: solid black 3px;
+}
+
+.buttons:hover {
+  background-color: green;
+  color: lightgreen;
+  font-weight: bold;
+  border: solid lightgreen 3px;
+}
