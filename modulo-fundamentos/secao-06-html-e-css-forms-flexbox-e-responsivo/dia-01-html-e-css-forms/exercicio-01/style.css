@@ -70,11 +70,13 @@ footer {
   border-radius: 10px;
   background-color: lightgreen;
   color: black;
+  font-weight: bold;
   border: solid black 3px;
 }
 
 .buttons:hover {
-  background-color: black;
+  background-color: green;
   color: lightgreen;
   font-weight: bold;
+  border: solid lightgreen 3px;
 }
