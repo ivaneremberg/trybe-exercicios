@@ -9,24 +9,25 @@
     </head>
     <body>
         <header>
-            <h1>TrybeTrip</h1>
+            <h1>Concurso Trybe Trip</h1>
         </header>
         <main>
             <form action="" method="get">
                 <section class="fields">
                     <section class="inputtext">
                         <label for="name">Nome:
-                            <input type="text" name="name" id="name" value="" placeholder="Digite o seu nome:" minlength="10" maxlength="40">
+                            <input type="text" name="name" id="name" value="" placeholder="Digite o seu nome:" minlength="10" maxlength="40" required>
                         </label>
                         <br>
-                        <label for="name">E-mail:
-                            <input type="email" name="email" id="email" value="" placeholder="Digite o seu e-mail:" minlength="10" maxlength="50">
+                        <label for="email">E-mail:
+                            <input type="email" name="email" id="email" value="" placeholder="Digite o seu e-mail:" minlength="10" maxlength="50" required>
                         </label>
                     </section>
                     <!-- Opções -->
-                    <section class="inputradio">
+                    <section class="inputradio"> Para onde você quer viajar com tudo pago pela Trybe?
+                        <br>
                         <label for="opcao1">
-                            <input type="radio" name="opções" id="opcao1" value="praia">Praia
+                            <input type="radio" name="opções" id="opcao1" value="praia" checked>Praia
                         </label>
                         <label for="opcao2">
                             <input type="radio" name="opções" id="opcao2" value="fazenda">Fazenda
@@ -40,16 +41,16 @@
                     </section>
                     <!-- Text Area -->
                     <section class="inputtextarea">
-                        <label for="textarea"> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+                        <label for="textarea"> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso Trybe Trip?
                             <br>
-                            <textarea cols="40" rows="10" id="textarea" maxlength="500"></textarea>
+                            <textarea name = "textarea" cols="40" rows="10" id="textarea" maxlength="500" placeholder="Digite aqui a sua resposta..." required></textarea>
                         </label>
                     </section>
                     <!-- Data -->
                     <section class="inputtext">
                         <label for="data">Qual a melhor data para realizar sua viagem?
                             <br>
-                            <input type="text" id="data" placeholder="dd/mm/aaaa">
+                            <input type="date" id="data" required>
                         </label>
                     </section>
                     <!-- Concordo  -->
@@ -63,13 +64,12 @@
                         </label>
                     </section>
                 </section>
-                <button type="submit" class="buttons">Enviar</button>
-                <button type="reset" class="buttons">Apagar</button>
+                <footer>
+                    <button type="submit" class="buttons" id="buttonSubmit">Enviar</button>
+                    <button type="reset" class="buttons">Apagar</button>
+            </footer>
             </form>
         </main>
-        <footer>
-
-        </footer>
     </body>
 	<script src="./script.js"></script>
 </html>
